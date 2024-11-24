@@ -7,7 +7,7 @@ const fonte = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Seu evento começa aqui!',
+  title: 'Seu Evento começa aqui',
   description: 'Aplicação fullstack de eventos',
 };
 
