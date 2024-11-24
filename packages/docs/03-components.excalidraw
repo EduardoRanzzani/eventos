@@ -75,12 +75,12 @@
       "containerId": "47ANoPyIHT6PYINCpokdN",
       "originalText": "estado\n\nfunções\n\n<JSX>\n",
       "lineHeight": 1.25,
-      "baseline": 143
+      "baseline": 146
     },
     {
       "type": "text",
-      "version": 183,
-      "versionNonce": 1731706646,
+      "version": 184,
+      "versionNonce": 854644711,
       "isDeleted": false,
       "id": "76lmhnWjE-QHAOAH_y2rk",
       "fillStyle": "solid",
@@ -100,7 +100,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1732406852837,
+      "updated": 1732418439509,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -185,12 +185,12 @@
       "containerId": "0HIRbsLcUK-0GP98Qn3Gr",
       "originalText": "<JSX>",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 21
     },
     {
       "type": "text",
-      "version": 310,
-      "versionNonce": 461544138,
+      "version": 311,
+      "versionNonce": 1393966601,
       "isDeleted": false,
       "id": "-DJyajG5s0PRBRu2s8j8F",
       "fillStyle": "solid",
@@ -210,7 +210,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1732406852837,
+      "updated": 1732418439510,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -299,12 +299,12 @@
       "containerId": "lGOVa9N068rkoxN8CJCyo",
       "originalText": "estado\n\nfunções",
       "lineHeight": 1.25,
-      "baseline": 68
+      "baseline": 71
     },
     {
       "type": "text",
-      "version": 366,
-      "versionNonce": 260867094,
+      "version": 367,
+      "versionNonce": 1056654087,
       "isDeleted": false,
       "id": "8Hz-3uUKaTYWX0Dr-OtLj",
       "fillStyle": "solid",
@@ -324,7 +324,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1732406852838,
+      "updated": 1732418439510,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -338,33 +338,46 @@
       "baseline": 32
     },
     {
-      "id": "OjK22ys5gyb-kGa06IMXF",
       "type": "arrow",
-      "x": 822.0799789428711,
-      "y": 153,
-      "width": 420.62787643056345,
-      "height": 64,
-      "angle": 0,
-      "strokeColor": "#ffffff",
-      "backgroundColor": "transparent",
+      "version": 596,
+      "versionNonce": 638563286,
+      "isDeleted": false,
+      "id": "OjK22ys5gyb-kGa06IMXF",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
+      "angle": 0,
+      "x": 822.0799789428711,
+      "y": 153,
+      "strokeColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "width": 420.62787643056345,
+      "height": 64,
+      "seed": 1816300886,
       "groupIds": [],
       "frameId": null,
       "roundness": {
         "type": 2
       },
-      "seed": 1816300886,
-      "version": 596,
-      "versionNonce": 638563286,
-      "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1732406852838,
       "link": null,
       "locked": false,
+      "startBinding": {
+        "elementId": "47ANoPyIHT6PYINCpokdN",
+        "focus": 0.00258435428782492,
+        "gap": 4.579978942871094
+      },
+      "endBinding": {
+        "elementId": "lGOVa9N068rkoxN8CJCyo",
+        "focus": -0.4879954319968168,
+        "gap": 11.372123569436553
+      },
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
       "points": [
         [
           0,
@@ -378,49 +391,49 @@
           420.62787643056345,
           18.304790966802983
         ]
-      ],
-      "lastCommittedPoint": null,
-      "startBinding": {
-        "elementId": "47ANoPyIHT6PYINCpokdN",
-        "focus": 0.00258435428782492,
-        "gap": 4.579978942871094
-      },
-      "endBinding": {
-        "elementId": "lGOVa9N068rkoxN8CJCyo",
-        "focus": -0.4879954319968168,
-        "gap": 11.372123569436553
-      },
-      "startArrowhead": null,
-      "endArrowhead": "arrow"
+      ]
     },
     {
-      "id": "sXaA8pyjKR9ZBlPfftbkA",
       "type": "arrow",
-      "x": 1175.8520126342773,
-      "y": 28.372324947628798,
-      "width": 77.22796630859375,
-      "height": 77.08030110981858,
-      "angle": 0,
-      "strokeColor": "#ffffff",
-      "backgroundColor": "transparent",
+      "version": 848,
+      "versionNonce": 1502888010,
+      "isDeleted": false,
+      "id": "sXaA8pyjKR9ZBlPfftbkA",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
+      "angle": 0,
+      "x": 1175.8520126342773,
+      "y": 28.372324947628798,
+      "strokeColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "width": 77.22796630859375,
+      "height": 77.08030110981858,
+      "seed": 1197742294,
       "groupIds": [],
       "frameId": null,
       "roundness": {
         "type": 2
       },
-      "seed": 1197742294,
-      "version": 848,
-      "versionNonce": 1502888010,
-      "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1732406878144,
       "link": null,
       "locked": false,
+      "startBinding": {
+        "elementId": "0HIRbsLcUK-0GP98Qn3Gr",
+        "focus": -0.4934518037473494,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "lGOVa9N068rkoxN8CJCyo",
+        "focus": -0.5199208239652101,
+        "gap": 1
+      },
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
       "points": [
         [
           0,
@@ -434,20 +447,7 @@
           77.22796630859375,
           77.08030110981858
         ]
-      ],
-      "lastCommittedPoint": null,
-      "startBinding": {
-        "elementId": "0HIRbsLcUK-0GP98Qn3Gr",
-        "focus": -0.4934518037473494,
-        "gap": 1
-      },
-      "endBinding": {
-        "elementId": "lGOVa9N068rkoxN8CJCyo",
-        "focus": -0.5199208239652101,
-        "gap": 1
-      },
-      "startArrowhead": null,
-      "endArrowhead": "arrow"
+      ]
     }
   ],
   "appState": {

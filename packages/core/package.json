@@ -11,12 +11,11 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "dependencies": {
+    "uuid": "^11.0.3"
+  },
   "devDependencies": {
     "@types/uuid": "^10.0.0",
     "tsup": "^8.3.5"
-  },
-  "dependencies": {
-    "core": "file:",
-    "uuid": "^11.0.3"
   }
 }
