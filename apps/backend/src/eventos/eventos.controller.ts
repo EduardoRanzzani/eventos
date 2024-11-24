@@ -10,6 +10,11 @@ export class EventosController {
     const evento = eventos.find(
       (evento) => evento.id === dados.id && evento.senha === dados.senha,
     );
+
+    if (!evento) {
+      throw new Error('Senha incorreta!');
+    }
+
     return this.serializar(evento);
   }
 
