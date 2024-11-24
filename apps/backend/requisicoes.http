@@ -14,7 +14,7 @@ Content-Type: application/json
 
 {
   "id": "1f867156-08cb-4b5e-8907-804edea59e0b",
-  "senha": "senha123"
+  "senha": "senha1234"
 }
 ###
 POST http://localhost:4000/eventos/evento-fullstack/convidado
