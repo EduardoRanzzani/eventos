@@ -11,15 +11,15 @@ const PaginaAdminEvento = (props: any) => {
   const [evento, setEvento] = useState<Evento | undefined>(undefined);
   const [senha, setSenha] = useState<string | null>(params.todos[1] ?? null);
 
-  const presentes = evento?.convidados.filter((c) => c.confirmado).length ?? [];
-  const ausentes = evento?.convidados.filter((c) => !c.confirmado).length ?? [];
+  const presentes: Convidado[] =
+    evento?.convidados.filter((c) => c.confirmado) ?? [];
+  const ausentes: Convidado[] =
+    evento?.convidados.filter((c) => !c.confirmado) ?? [];
 
-  const totalGeral = evento?.convidados.reduce(
-    (total: number, convidado: Convidado) => {
+  const totalGeral =
+    evento?.convidados.reduce((total: number, convidado: Convidado) => {
       return total + convidado.qtdeAcompanhantes + 1;
-    },
-    0
-  );
+    }, 0) ?? 0;
 
   useEffect(() => {
     carregarEvento();
@@ -32,7 +32,16 @@ const PaginaAdminEvento = (props: any) => {
 
   return (
     <div className='flex flex-col items-center'>
-      {evento ? <DashboardEvento evento={evento} /> : <FormSenhaEvento />}
+      {evento ? (
+        <DashboardEvento
+          evento={evento}
+          presentes={presentes}
+          ausentes={ausentes}
+          totalGeral={totalGeral}
+        />
+      ) : (
+        <FormSenhaEvento />
+      )}
     </div>
   );
 };
