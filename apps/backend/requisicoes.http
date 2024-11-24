@@ -28,3 +28,29 @@ Content-Type: application/json
   "possuiAcompanhantes": false,
   "qtdeAcompanhantes": 0  
 }
+###
+POST http://localhost:4000/eventos
+Content-Type: application/json
+
+{
+  "id": "6bedf5a6-ca1f-4628-a32c-b96af1a3accf",
+  "alias": "semana-formacao-dev",
+  "senha": "senha123",
+  "nome": "Semana de Formação de Desenvolvedores",
+  "data": "2024-12-31T23:00",
+  "local": "Campo Grande, MS",
+  "descricao": "Evento de formação de desenvolvedores",
+  "imagem": "https://www.shutterstock.com/image-vector/dev-letter-design-technology-logo-600nw-2420204247.jpg",
+  "imagemBackground": "https://images.prismic.io/vaultinum/0458a9f1-e149-4037-b9aa-aa4b4fb53c25_propriete-intellectuelle-code-source-protection-compressed.jpg?auto=compress,format&rect=0,0,2400,981&w=2400&h=981",
+  "publicoEsperado": 100,
+  "convidados": [
+        {
+            "id": "ecd2eb93-c8b4-4ad2-9171-f282c71c8a66",
+            "nome": "Regina Maciel",
+            "email": "reginamaciel.contato@gmail.com.br",
+            "confirmado": true,
+            "possuiAcompanhantes": false,
+            "qtdeAcompanhantes": 0  
+        }
+    ]
+}
