@@ -89,6 +89,6 @@ export class EventosController {
     return {
       ...evento,
       data: Data.desformatar(evento.data),
-    };
+    } as Evento;
   }
 }
