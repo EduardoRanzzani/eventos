@@ -1,5 +1,7 @@
 'use client';
 
+import DashboardEvento from '@/components/evento/DashboardEvento';
+import FormSenhaEvento from '@/components/evento/FormSenhaEvento';
 import { Convidado, Evento, eventos } from '@/core';
 import { use, useEffect, useState } from 'react';
 
@@ -24,18 +26,15 @@ const PaginaAdminEvento = (props: any) => {
   }, [id, senha]);
 
   const carregarEvento = () => {
-    const evento: Evento = eventos.find(
-      (ev) => ev.id === id && ev.senha === senha
-    );
-
-    setEvento(evento ?? null);
+    const evento = eventos.find((ev) => ev.id === id && ev.senha === senha);
+    setEvento(evento);
   };
 
-  return evento ? (
-    <div className='flex flex-col'>
-      <span>{evento.nome}</span>
+  return (
+    <div className='flex flex-col items-center'>
+      {evento ? <DashboardEvento evento={evento} /> : <FormSenhaEvento />}
     </div>
-  ) : null;
+  );
 };
 
 export default PaginaAdminEvento;
