@@ -12,7 +12,7 @@ export default class Data {
     return `${ano}-${mes}-${dia}T${hora}:${minuto}`;
   }
 
-  static parse(data: string): Date {
+  static desformatar(data: string): Date {
     const [ano, mes, dia] = data.split('T')[0].split('-');
     const [hora, minuto] = data.split('T')[1].split(':');
 
