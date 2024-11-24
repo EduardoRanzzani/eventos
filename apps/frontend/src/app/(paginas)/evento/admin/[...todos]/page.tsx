@@ -17,7 +17,7 @@ const PaginaAdminEvento = (props: any) => {
     evento?.convidados.filter((c) => !c.confirmado) ?? [];
 
   const totalGeral =
-    evento?.convidados.reduce((total: number, convidado: Convidado) => {
+    presentes.reduce((total: number, convidado: Convidado) => {
       return total + convidado.qtdeAcompanhantes + 1;
     }, 0) ?? 0;
 
