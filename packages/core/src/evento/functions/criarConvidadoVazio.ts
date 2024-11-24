@@ -1,4 +1,4 @@
-import { Id } from '@/core/shared';
+import { Id } from '../../shared';
 import Convidado from '../model/Convidado';
 
 const criarConvidadoVazio = (): Partial<Convidado> => {
