@@ -17,3 +17,14 @@ Content-Type: application/json
   "senha": "senha123"
 }
 ###
+POST http://localhost:4000/eventos/evento-fullstack/convidado
+Content-Type: application/json
+
+{
+  "id": "ecd2eb93-c8b4-4ad2-9171-f282c71c8a66",
+  "nome": "Regina Maciel",
+  "email": "reginamaciel.contato@gmail.com.br",
+  "confirmado": true,
+  "possuiAcompanhantes": false,
+  "qtdeAcompanhantes": 0  
+}
